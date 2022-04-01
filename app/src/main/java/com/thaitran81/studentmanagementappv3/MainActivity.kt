@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity(), StudentAdapter.OnItemClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.student_list)
         db = StudentDatabase.getInstance(this)
-
+//kokoko
 
         atFindStudent = findViewById(R.id.atFindStudent)
         atFindStudent.threshold = 0
